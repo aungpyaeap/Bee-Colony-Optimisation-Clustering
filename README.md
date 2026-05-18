@@ -8,7 +8,7 @@ This repository contains a MATLAB implementation of search-based clustering by B
 For a typical approach with a predefined $K$ value, the objective function is defined as:
 
 $$
-\min \sum_{i=1}^K \sum_{x \in C_i} \|x-c_i\|^2 , \quad i=1,2,\cdots,K
+\min \sum_{i=1}^K \sum_{x \in C_i} \Vert x-c_i \Vert^2 , \quad i=1,2,\cdots,K
 $$
 
 $$
