@@ -9,6 +9,7 @@ For a typical approach with a predefined $K$ value, the objective function is us
 $$
 \min \sum_{i=1}^K \sum_{x \in C_i} \|x-c_i\|^2 , \quad i=1,2,\cdots,K
 $$
+
 $$
 \text{subject to} \quad c \in \mathbb{R}^m, \quad \sum_{x \in C_i} (x-c_i)=0
 $$
