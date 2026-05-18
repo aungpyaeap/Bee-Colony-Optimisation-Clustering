@@ -5,7 +5,8 @@ We will consider the problem of clustering a set of data points $\mathfrak{X} = 
 
 This repository contains a MATLAB implementation of search-based clustering by Bee Colony Optimisation [1].
 
-For a typical approach with a predefined $K$ value, the objective function is used as:
+For a typical approach with a predefined $K$ value, the objective function is defined as:
+
 $$
 \min \sum_{i=1}^K \sum_{x \in C_i} \|x-c_i\|^2 , \quad i=1,2,\cdots,K
 $$
