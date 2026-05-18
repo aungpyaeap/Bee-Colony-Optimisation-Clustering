@@ -17,9 +17,10 @@ $$
 
 The algorithm optimises intra-cluster distances to search for optimal cluster centroids.
 
-Artificial Bee Colony Optimization Codebase: MathWorks File Exchange. Available at: [https://www.mathworks.com/matlabcentral/fileexchange/74122-artificial-bee-colony-optimization](https://www.mathworks.com/matlabcentral/fileexchange/74122-artificial-bee-colony-optimization)
-
 ## References
 [1] D. Karaboga, "An idea based on honey bee swarm for numerical optimization," Erciyes University, Engineering Faculty, Computer Engineering Department, Kayseri, Turkey, Tech. Rep. TR06, 2005.
 
 [2] E. B. Fowlkes and C. L. Mallows, "A method for comparing two hierarchical clusterings," *Journal of the American Statistical Association*, vol. 78, no. 383, pp. 553-569, Jun. 1983, doi: [10.1080/01621459.1983.10477908](https://doi.org/10.1080/01621459.1983.10478008).
+
+## Acknowledgement
+Artificial Bee Colony Optimization Codebase: MathWorks File Exchange. Available at: [https://www.mathworks.com/matlabcentral/fileexchange/74122-artificial-bee-colony-optimization](https://www.mathworks.com/matlabcentral/fileexchange/74122-artificial-bee-colony-optimization)
