@@ -7,9 +7,12 @@ This repository contains a MATLAB implementation of search-based clustering by B
 
 For a typical approach with a predefined $K$ value, the objective function is used as:
 $$
-\min \sum_{i=1}^K \sum_{x \in C_i} \|x-c_i\|^2 , \quad i=1,2,\cdots,K \\
+\min \sum_{i=1}^K \sum_{x \in C_i} \|x-c_i\|^2 , \quad i=1,2,\cdots,K
+$$
+$$
 \text{subject to} \quad c \in \mathbb{R}^m, \quad \sum_{x \in C_i} (x-c_i)=0
 $$
+
 The algorithm optimises intra-cluster distances to search for optimal cluster centroids.
 
 Artificial Bee Colony Optimization Codebase: MathWorks File Exchange. Available at: [https://www.mathworks.com/matlabcentral/fileexchange/74122-artificial-bee-colony-optimization](https://www.mathworks.com/matlabcentral/fileexchange/74122-artificial-bee-colony-optimization)
