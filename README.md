@@ -33,4 +33,4 @@ The algorithm optimises intra-cluster distances to search for optimal cluster ce
 [4] E. B. Fowlkes and C. L. Mallows, "A method for comparing two hierarchical clusterings," *Journal of the American Statistical Association*, vol. 78, no. 383, pp. 553-569, Jun. 1983, doi: [10.1080/01621459.1983.10478008](https://doi.org/10.1080/01621459.1983.10478008).
 
 ## Acknowledgement
-Artificial Bee Colony Optimization Codebase: MathWorks File Exchange. Available at: [https://www.mathworks.com/matlabcentral/fileexchange/74122-artificial-bee-colony-optimization](https://www.mathworks.com/matlabcentral/fileexchange/74122-artificial-bee-colony-optimization)
+Artificial Bee Colony Optimization Code: MathWorks File Exchange. Available at: [https://www.mathworks.com/matlabcentral/fileexchange/74122-artificial-bee-colony-optimization](https://www.mathworks.com/matlabcentral/fileexchange/74122-artificial-bee-colony-optimization)
