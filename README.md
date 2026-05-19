@@ -15,6 +15,14 @@ $$
 \text{subject to} \quad c \in \mathbb{R}^m, \quad \sum_{x \in C_i} (x-c_i)=0
 $$
 
+The algorithm optimises intra-cluster distances to search for optimal cluster centroids.
+
+## Files in this Repository
+* **`ScriptABC.m`**: The main execution script. Adjust optimisation parameters based on specific requirement of clustering problem.
+* **`clustering_objective.m`**: The objective function specifically written for partitional clustering. The function computes the squared Euclidean distance between data points and centroids, and returns total intra-cluster to minimise.
+* **`ABC.m`**: Source code for Artificial Bee Colony (ABC) optimisation algorithm.
+* **`Fowlkes_Mallows_index.m`**: An external cluster validity index introduced by [4] to evaluate cluster assignments between generated clusters and ground truth clusters.
+
 ## References
 [1] A. Bagirov, N. Karmitsa, and S. Taheri, Partitional clustering via nonsmooth optimization: Clustering via optimization, 2nd ed. Cham, Switzerland: Springer International Publishing, 2024.
 
