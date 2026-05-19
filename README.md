@@ -1,6 +1,4 @@
 # Bee Colony Optimisation Clustering MATLAB
-Bee Colony Optimisation Clustering by minimising intra-cluster squared Euclidean distances.
-
 The problem of clustering a set of data points $\mathfrak{X} = \{x_i \in \mathbb{R}^m : i = 1,2,\cdots,n\}$ is addressed by reformulating partitional clustering as a global optimisation problem [1]. The objective is to identify optimal cluster assignments that satisfy the disjoint constraint $C_i \cap C_j = \emptyset$ for all $i \neq j$ [1,2].
 
 This repository contains a MATLAB implementation of search-based clustering by Bee Colony Optimisation [3] to optimise the following objective function [1,2]:
