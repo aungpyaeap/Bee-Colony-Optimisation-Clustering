@@ -1,5 +1,8 @@
 # Bee Colony Optimisation Clustering MATLAB
-The problem of clustering a set of data points $\mathfrak{X} = \{x_i \in \mathbb{R}^m : i = 1,2,\cdots,n\}$ is addressed by reformulating partitional clustering as a global optimisation problem [1]. The objective is to identify optimal cluster assignments that satisfy the disjoint constraint $C_i \cap C_j = \emptyset$ for all $i \neq j$ [1,2].
+The problem of clustering a set of data points $\mathfrak{X} = \{x_i \in \mathbb{R}^m : i = 1,2,\cdots,n\}$ is addressed by reformulating partitional clustering as a global optimisation problem [1]. The objective is to identify optimal cluster assignments that satisfy following constraints [1,2].
+* $C_i \neq \emptyset, \quad i = 1, \dots, K$
+* $C_i \cap C_j = \emptyset \quad \text{for all} \quad i,j = 1, \dots, K, \, i \neq j$
+* $\mathfrak{X} = \bigcup_{i=1}^K C_i$
 
 This repository contains a MATLAB implementation of search-based clustering by Bee Colony Optimisation [3] to optimise the following objective function [1,2]:
 
