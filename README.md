@@ -15,8 +15,6 @@ $$
 \text{subject to} \quad c \in \mathbb{R}^m, \quad \sum_{x \in C_i} (x-c_i)=0
 $$
 
-The algorithm optimises intra-cluster distances to search for optimal cluster centroids.
-
 ## Files in this Repository
 * **`ScriptABC.m`**: The main execution script. Adjust optimisation parameters based on specific requirement of clustering problem.
 * **`clustering_objective.m`**: The objective function specifically written for partitional clustering. The function computes the squared Euclidean distance between data points and centroids, and returns total intra-cluster to minimise.
