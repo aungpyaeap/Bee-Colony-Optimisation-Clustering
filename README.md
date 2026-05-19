@@ -15,8 +15,6 @@ $$
 \text{subject to} \quad c \in \mathbb{R}^m, \quad \sum_{x \in C_i} (x-c_i)=0
 $$
 
-The algorithm optimises intra-cluster distances to search for optimal cluster centroids.
-
 ## References
 [1] A. Bagirov, N. Karmitsa, and S. Taheri, Partitional clustering via nonsmooth optimization: Clustering via optimization, 2nd ed. Cham, Switzerland: Springer International Publishing, 2024.
 
