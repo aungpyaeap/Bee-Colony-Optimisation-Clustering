@@ -16,7 +16,7 @@ $$
 The algorithm optimises intra-cluster distances to search for optimal cluster centroids.
 
 ## Files in this Repository
-* **`ScriptABC.m`**: The main execution script. Configure parameters for Bee Colony algorithm based on specific requirement of clusteirng problem.
+* **`ScriptABC.m`**: The main execution script. Adjust optimisation parameters based on specific requirement of clusteirng problem.
 * **`clustering_objective.m`**: The objective function specifically written for partitional clustering. The function computes the squared Euclidean distance between data points and centroids, and returns total intra-cluster to minimise.
 * **`ABC.m`**: Source code for Artificial Bee Colony (ABC) optimisation algorithm.
 * **`Fowlkes_Mallows_index.m`**: An external cluster validity index introduced by [4] to evaluate cluster assignments between generated clusters and ground truth clusters.
