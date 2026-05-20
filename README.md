@@ -22,9 +22,9 @@ $$
 * **`Fowlkes_Mallows_index.m`**: An external cluster validity index introduced by [4] to evaluate cluster assignments between generated clusters and ground truth clusters.
 
 ## References
-[1] A. Bagirov, N. Karmitsa, and S. Taheri, Partitional clustering via nonsmooth optimization: Clustering via optimization, 2nd ed. Cham, Switzerland: Springer International Publishing, 2024.
+[1] A. Bagirov, N. Karmitsa, and S. Taheri, *Partitional clustering via nonsmooth optimization: Clustering via optimization*, 2nd ed. Cham, Switzerland: Springer International Publishing, 2024.
 
-[2]	R. Scitovski, K. Sabo, F. Martínez-Álvarez, and Š. Ungar, Cluster analysis and applications, 2021st ed. Cham, Switzerland: Springer Nature, 2021.
+[2]	R. Scitovski, K. Sabo, F. Martínez-Álvarez, and Š. Ungar, *Cluster analysis and applications*, 2021st ed. Cham, Switzerland: Springer Nature, 2021.
 
 [3] D. Karaboga, "An idea based on honey bee swarm for numerical optimization," Erciyes University, Engineering Faculty, Computer Engineering Department, Kayseri, Turkey, Tech. Rep. TR06, 2005.
 
