@@ -1,5 +1,5 @@
 # Bee Colony Optimisation Clustering MATLAB
-The problem of clustering a set of data points $\mathfrak{X}$ = {$x_i \in \mathbb{R}^m : i = 1,2,\cdots,n$} is addressed by reformulating partitional clustering as a global optimisation problem [1]. Let $K$ be a natural number between 2 and $n-1$, the objective is to identify optimal cluster assignments for $\mathcal{C}=${$C_i^K$}$,i=1,2,\cdots,K$ that satisfy following constraints [1,2]:
+The problem of clustering a set of data points $\mathfrak{X} = \left\{ x_i \in \mathbb{R}^m : i = 1,2,\cdots,n \right\}$ is addressed by reformulating partitional clustering as a global optimisation problem [1]. Let $K$ be a natural number between 2 and $n-1$, the objective is to identify optimal cluster assignments for $\mathcal{C} = \left\{C_i^K \right\},i=1,2,\cdots,K$ that satisfy following constraints [1,2]:
 
 * $C_i \neq \emptyset, \quad i = 1, \dots, K$
 * $C_i \cap C_j = \emptyset \quad \text{for all} \quad i,j = 1, \dots, K, \, i \neq j$
