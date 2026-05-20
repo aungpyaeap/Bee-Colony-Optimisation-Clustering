@@ -34,7 +34,7 @@ tabulate(idx)
 figure;
 gscatter(points(:,1), points(:,2), idx);
 hold on;
-plot(best_centroids(:,1), best_centroids(:,2), 'kx', 'MarkerSize', 12, 'LineWidth', 2, 'DisplayName', 'Centroids');
+plot(best_centroids(:,1), best_centroids(:,2), 'kx', 'MarkerSize', 10, 'LineWidth', 2, 'DisplayName', 'Centroids');
 legend('Location', 'bestoutside');
 title('Optimal Cluster Assignments');
 grid on;
